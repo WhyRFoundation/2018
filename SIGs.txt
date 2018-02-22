@@ -1,0 +1,6 @@
+Special interest groups
+
+ - Women in Data Science (responsible - who?)
+ - Career-planning in Data Science (Olga)
+ - Teaching Data Science (Stefan)
+ 
