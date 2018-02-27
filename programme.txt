@@ -3,7 +3,7 @@ Napisac plan konferencji:
 3.07-first half of 4.07: lectures
 first half of 4.07: Lightning Talks
 second half of 4.07: mlr lectures and workshops
-5.07: hackathonLeon Eyrich Jessen
+5.07: hackathon
 5.07: Special Interest Groups
 
 
