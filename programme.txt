@@ -3,7 +3,7 @@ Napisac plan konferencji:
 3.07-first half of 4.07: lectures
 first half of 4.07: Lightning Talks
 second half of 4.07: mlr lectures and workshops
-5.07: hackathon
+5.07: hackathonLeon Eyrich Jessen
 5.07: Special Interest Groups
 
 
@@ -12,4 +12,5 @@ Keynote lecutures:
 3.07, afternoon: Thomas Petzhold
 3.07, evening: Artur Suchwałko
 4.07, morning: Maciej Eder
-4.07, afternoon: Bernd Bishl
+4.07, afternoon: Leon Eyrich Jessen 
+4.07, evening: Bernd Bishl
