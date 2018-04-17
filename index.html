@@ -84,7 +84,7 @@
     <!-- </div> -->
   </div>
   <!-- Sekcja o konferencji -->
-  <section id="about" class="about postL">
+  <section id="about" class="about post">
     <div class="wrapper">
       <header>
         <h4>About conference</h4>
@@ -99,8 +99,8 @@
             <h5>EARLY BIRD FEE: 450PLN/100EUR</h5>
             <h5>STUDENT FEE: 200PLN/50EUR</h5>
             <h5>REGULAR FEE: 650PLN/150EUR</h5>
-            <p>The registration fee includes participation in workshops and Special Interest Groups. Continuous coffee breaks and lunches on the 3rd and 4th of July are covered by the fee. Refunds are possible till 01.06.2018.</p>
           </header>
+          <p>The registration fee includes participation in workshops and Special Interest Groups. Continuous coffee breaks and lunches on the 3rd and 4th of July are covered by the fee. Refunds are possible till 01.06.2018.</p>
         </div>
         <div class="wrapper">
           <header class="">
@@ -109,31 +109,18 @@
             <h5>30.04.2018: WORKSHOP CALL CLOSES</h5>
             <h5>25.05.2018: PRESENTATION CALLS CLOSES</h5>
             <h5>01.06.2018: LIGHTNING TALKS CALL CLOSES</h5>
-            <p>Abstract submissions are format free, but please do not exceed 400 words and state clearly a chosen call. <b>The abstract submission form <a href="https://docs.google.com/forms/d/e/1FAIpQLScuvHZO8MRHRWd9h6dZWoGQBwMsQ9Ef5KBTOLlJT9nMUgHaog/viewform">is available here</a> or during the <a href="https://whyr2018.evenea.pl/?lang=en">registration</a> </b>.</p>
           </header>
+          <p>Abstract submissions are format free, but please do not exceed 400 words and state clearly a chosen call. <b>The abstract submission form <a href="https://docs.google.com/forms/d/e/1FAIpQLScuvHZO8MRHRWd9h6dZWoGQBwMsQ9Ef5KBTOLlJT9nMUgHaog/viewform">is available here</a> or during the <a href="https://whyr2018.evenea.pl/?lang=en">registration.</a> </b></p>
         </div>
       </header>
-      <!-- <div class="owl-carousel owl-theme">
-        <div class="slider-item">
-          <img src="img/meetings/rladies_eng.jpg"> </div>
-        <div class="slider-item">
-          <img src="img/meetings/tricity_eng.jpg"> </div>
-        <div class="slider-item">
-          <img src="img/meetings/warsaw2_eng.jpg"> </div>
-        <div class="slider-item">
-          <img src="img/meetings/krakow_eng.jpg"> </div>
-        <div class="slider-item">
-          <img src="img/meetings/stwur_eng.jpg"> </div>
-        <div class="slider-item">
-          <img src="img/meetings/pazur_eng.jpg"> </div>
-      </div>--></div>
+    </div>
   </section>
   <!-- Sekcja o mówcach -->
-  <section id="speakers" class="speakers postR">
+  <section id="speakers" class="speakers post">
     <div class="wrapper">
       <header>
         <h4 style="color:#FFFFFF">Keynote speakers</h4>
-        <h3 style="color:#FFFFFF">INVITED SPEAKERS</h3>
+        <h3 style="color:#FFFFFF">SPEAKERS</h3>
       </header>
       <div class="row">
         <div class="col-6 speaker">
@@ -220,43 +207,159 @@
 				</div>
 	</section>-->
   <!-- Program konferencji -->
-  <section id="programme" class="program postL">
+  <section id="programme" class="program post">
     <div class="wrapper">
       <header>
-        <h4>Programme</h4>
-        <h3>Conference Programme</h3>
-        <img src="img/bg/programme5.jpg" alt="Programme" style="width:100%"> </header>
+        <div class="wrapper">
+          <header>
+            <h4>Programme</h4>
+            <h3>Conference Programme</h3>
+          </header>
+        </div>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+
+          body {
+            margin: 0;
+            font-family: arial;
+          }
+          /* The grid: Three equal columns that floats next to each other */
+
+          .column {
+            float: left;
+            width: 25%;
+            padding: 50px;
+            text-align: center;
+            font-size: 20px;
+            cursor: pointer;
+            color: white;
+          }
+
+          .containerTab {
+            padding: 20px;
+            color: white;
+          }
+          /* Clear floats after the columns */
+
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          /* Closable button inside the container tab */
+
+          .closebtn {
+            float: right;
+            color: white;
+            font-size: 10px;
+            cursor: pointer;
+          }
+        </style>
+        <!-- Four columns -->
+        <div class="row">
+          <div class="column" onclick="openTab('b1');" style="background:#456D7F;"> 02.07 </div>
+          <div class="column" onclick="openTab('b2');" style="background:#498CB0;"> 03.07 </div>
+          <div class="column" onclick="openTab('b3');" style="background:#456D7F;"> 04.07 </div>
+          <div class="column" onclick="openTab('b4');" style="background:#498CB0;"> 05.07 </div>
+        </div>
+        <!-- Full-width columns: (hidden by default) -->
+        <div id="b1" class="containerTab" style="display:none;background:#456D7F"> <span onclick="this.parentElement.style.display='none'" class="closebtn">×</span>
+          <h5 style="color:#FFFFFF">
+            <center>Monday - Workshops</center>
+          </h5>
+          <p style="color:#FFFFFF"></p>
+          <center>Please check back soon for more details!</center>
+          <p></p>
+        </div>
+        <div id="b2" class="containerTab" style="display:none;background:#498CB0"> <span onclick="this.parentElement.style.display='none'" class="closebtn">×</span>
+          <h5 style="color:#FFFFFF">
+            <center>Tuesday - Lectures</center>
+          </h5>
+          <p style="color:#FFFFFF"></p>
+          <center>Keynote lectures: morning - Tomasz Niedzielski, afternoon - Thomas Petzoldt, evening - Artur Suchwałko</center>
+          <p></p>
+        </div>
+        <div id="b3" class="containerTab" style="display:none;background:#456D7F"> <span onclick="this.parentElement.style.display='none'" class="closebtn">×</span>
+          <h5 style="color:#FFFFFF">
+            <center>Wednesday - Lectures and lightning talks &amp; MLR lectures and workshops</center>
+          </h5>
+          <p style="color:#FFFFFF"></p>
+          <center>Keynote lectures: morning - Maciej Eder, afternoon - Bernd Bischl, afternoon - Leon Eyrich Jessen</center>
+          <p></p>
+        </div>
+        <div id="b4" class="containerTab" style="display:none;background:#498CB0"> <span onclick="this.parentElement.style.display='none'" class="closebtn">×</span>
+          <h5 style="color:#FFFFFF">
+            <center>Thursday - Hackathon &amp; Special Interest Groups</center>
+          </h5>
+          <p style="color:#FFFFFF"></p>
+          <center>Please check back soon for more details!</center>
+          <p></p>
+        </div>
+        <script>
+          function openTab(tabName) {
+            var i, x;
+            x = document.getElementsByClassName("containerTab");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";
+            }
+            document.getElementById(tabName).style.display = "block";
+          }
+        </script>
+      </header>
       <div class="row">
         <div class="col-4"><i class="fa fa-laptop" aria-hidden="true"></i>
           <h5>Workshops</h5>
-          <p>2nd of July: R workshops and tutorials. Additional mlr workshops are on the 4th of July.</p>
+          <left>2nd of July: R workshops and tutorials. Additional mlr workshops are on the 4th of July.</left>
         </div>
         <div class="col-4"><i class="fa fa-university" aria-hidden="true"></i>
           <h5>Talks</h5>
-          <p>3rd and 4th of July: plenary lectures (40 minutes including questions) and talks (20 minutes including questions) submitted by WhyR participants.</p>
+          <left>3rd and 4th of July: plenary lectures (40 minutes including questions) and talks (20 minutes including questions) submitted by WhyR participants.</left>
         </div>
         <div class="col-4"><i class="fa fa-hourglass" aria-hidden="true"></i>
           <h5>Hackathon</h5>
-          <p>5th of July: collaborative work on the mlr package under the guidance of its developers.</p>
+          <left>5th of July: collaborative work on the mlr package under the guidance of its developers.</left>
         </div>
       </div>
       <div class="row">
         <div class="col-4"><i class="fa fa-line-chart" aria-hidden="true"></i>
           <h5>Poster session</h5>
-          <p>3rd of July: </p>
+          <left>3rd of July. Please check back soon for more details!</left>
         </div>
         <div class="col-4"><i class="fa fa-bullhorn" aria-hidden="true"></i>
           <h5>Lightning Talks</h5>
-          <p>4th of July: dynamic session of short talks. Presenters of lightning talks have 5 minutes at their disposal to present </p>
+          <left>4th of July: dynamic session of short talks. Presenters of lightning talks have 5 minutes at their disposal to present.</left>
         </div>
         <div class="col-4"><i class="fa fa-group" aria-hidden="true"></i>
           <h5>Special Interest Groups Session</h5>
-          <p>5th of July: meet R users with similar interests and share with them your experience. Topics are: Diversity in data science, Career growth with R and Teaching data analysis</p>
+          <left>5th of July: meet R users with similar interests and share with them your experience. Topics are: Diversity in data science, Career growth with R and Teaching data analysis.</left>
         </div>
       </div>
     </div>
   </section>
   <!-- Sekcja ozdobniczo/przerwynikowa ze zdjęciem miejsca konferencji -->
+  <section id="Pre-meetings">
+    <div class="wrapper">
+      <header>
+        <h4>Pre-meetings</h4>
+        <h3>Why R? Pre-meetings</h3>
+      </header>
+    </div>
+    <img src="img/bg/europe2_mapa_kwiecien_light.jpg" alt="PWC" style="width:100%"> </section>
+  <div class="owl-carousel owl-theme">
+    <div class="slider-item">
+      <img src="img/meetings/copen_car.jpg"> </div>
+    <div class="slider-item">
+      <img src="img/meetings/hamb_car.jpg"> </div>
+    <div class="slider-item">
+      <img src="img/meetings/waw_car.jpg"> </div>
+    <div class="slider-item">
+      <img src="img/meetings/krk_car.jpg"> </div>
+    <div class="slider-item">
+      <img src="img/meetings/berlin_car.jpg"> </div>
+  </div>
   <section id="place" class="place">
     <div class="wrapper">
       <header>
@@ -271,14 +374,6 @@
       </header>
     </div>
   </section>
-  <section id="Pre-meetings" class="pre-meetings postR">
-    <div class="wrapper">
-      <header>
-        <h4>Pre-meetings</h4>
-        <h3>Why R? Pre-meetings</h3>
-      </header>
-    </div>
-    <img src="img/bg/europe2_mapa_kwiecien_light.jpg" alt="PWC" style="width:100%"> </section>
   <!-- <section id="workshop" class="workshop postL">
     <div class="wrapper">
       <header>
@@ -334,7 +429,7 @@
   </section>-->
   <!-- Sekcja zawierająca sposorów -->
   <section class="sponsoring" id="sponsoring">
-    <section id="Sponsoring" class="pre-meetings postR">
+    <section id="Sponsoring" class="pre-meetings post">
       <div class="wrapper">
         <header>
           <h4>Support</h4>
@@ -367,7 +462,7 @@
       </div>
     </section>
     <!-- Sekcja poświęcona organizatorom -->
-    <section id="organizators" class="organizators postL">
+    <section id="organizators" class="organizators post">
       <div class="wrapper">
         <header>
           <header>
@@ -380,7 +475,7 @@
                 <img src="img/people/Michal_kolko3.gif" alt="Michał Burdukiewicz"> </figure>
               <div class="description">
                 <p>Michał Burdukiewicz</p>
-                <p id="lider">General Chair</p>
+                <p id="lider">GENERAL CHAIR</p>
                 <a href="https://www.researchgate.net/profile/Michal_Burdukiewicz" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a>
                 <a href="https://github.com/michbur" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
               </div>
@@ -530,7 +625,7 @@
       </div>
     </section>
     <!-- Loga organiztorów -->
-    <section id="org" class="pre-meetings postR">
+    <section id="org" class="pre-meetings post">
       <div class="wrapper">
         <header>
           <h4>Whyr R? Foundation</h4>
@@ -545,7 +640,7 @@
         <header></header>
       </div>
     </section>
-    <section id="org" class="pre-meetings postR">
+    <section id="org" class="pre-meetings post">
       <div class="wrapper">
         <header>
           <h4>Partners</h4>
@@ -666,7 +761,7 @@
 </div>
   </section> -->
   <div class="wrapper"> </div>
-  <section id="hackaton" class="about postL">
+  <section id="hackaton" class="about post">
     <div class="wrapper">
       <header>
         <h3>Hackaton</h3>
@@ -754,15 +849,6 @@
       </header>
     </div>
   </section>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-115973733-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-  	  function gtag(){dataLayer.push(arguments);}
-  	  gtag('js', new Date());
-  
-  	  gtag('config', 'UA-115973733-1');
-  </script>
 </body>
 
 </html>
